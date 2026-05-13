@@ -14,7 +14,8 @@ Error handling for invalid city names
 Login welcome screen
 
 SCREENSHOTS [homescreen of weather app]
-<img width="1364" height="727" alt="image" src="https://github.com/user-attachments/assets/3ea6c0f8-19ad-442d-beb0-fb14f031e47d" />
+<img width="1365" height="627" alt="image" src="https://github.com/user-attachments/assets/88d41c56-a05c-4038-8a40-e330f9f3e765" />
+
 
 
 
