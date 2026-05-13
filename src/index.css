@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    ;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+.Weather-Container {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.bg-video {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.Weather-Card {
+    width: 400px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transform: 0.3s ease;
+
+}
+
+.Weather-Card.hover {
+    transform: translateY(-5px);
+}
+
+.title {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 10px 10px;
+    border-radius: 15px;
+    color: black;
+    border: none;
+}
+
+.search-box button {
+    background: #38bdf8;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.search-box button:hover {
+    background-color: #0ea5e9;
+
+    transform: scale(1.05);
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    color: #ff6b6b;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.weather-info h2 {
+    font-size: 2.5em;
+}
+
+.temp {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+
+}
+
+.condition {
+    font-size: 1.2rem;
+    color: #cbd5e1;
+
+    margin-bottom: 25px;
+}
+
+
+.details {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.detail-card {
+    flex: 1;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+
+}
