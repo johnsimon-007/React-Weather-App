@@ -13,8 +13,10 @@ Responsive layout for mobile and desktop
 Error handling for invalid city names
 Login welcome screen
 
-SCREENSHOTS
-<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/3b18b123-cea5-484f-b01e-0df6adf33fd8" />
+SCREENSHOTS [homescreen of weather app]
+<img width="1364" height="727" alt="image" src="https://github.com/user-attachments/assets/3ea6c0f8-19ad-442d-beb0-fb14f031e47d" />
+
+
 
 
 --------------------------------------
